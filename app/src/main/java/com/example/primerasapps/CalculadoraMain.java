@@ -202,7 +202,6 @@ public class CalculadoraMain extends AppCompatActivity {
 
 
                 pantalla.setText(resultado);
-                
 
 
             }
