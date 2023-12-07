@@ -25,7 +25,7 @@
             android:name=".ResultPerroActivity"
             android:exported="false" />
         <activity
-            android:name=".PortadaCalculadoraActivity"
+            android:name="com.example.calculadora.PortadaCalculadoraActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -43,7 +43,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".CalculadoraMain"
+            android:name="com.example.calculadora.CalculadoraMain"
             android:exported="false" />
     </application>
 

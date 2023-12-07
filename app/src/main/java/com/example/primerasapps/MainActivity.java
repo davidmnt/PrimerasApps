@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
                 //Toma la edad
                 String edad = EditEdad.getText().toString();
-                //Comporbamos si esta vacia loa edad
+                //Comporbamos si esta vacia la edad
 
                 if(!edad.isEmpty()){
 
@@ -43,7 +43,9 @@ public class MainActivity extends AppCompatActivity {
 
         }
 
-
+        //igual que en otros ejercicios he definido un intent para pasar a otro activity
+        //pero en este caso el intent tiene que mandar la edad del perro al otro activity
+        //Esto se hace con el metodo intent.putExtra(parametro de entrada nombre y la variable que quieres mandar)
     public void enviarPantalla(View view){
 
         Intent in = new Intent(this, ResultPerroActivity.class);
